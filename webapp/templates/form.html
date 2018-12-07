@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Enter Student details</title>
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='view.css')}}" >
+<script type="text/javascript" src="url_for('static',filename='view.js')"></script>
+
+</head>
+<body id="main_body" >
+	
+	<img id="top" src="top.png" alt="">
+	<div id="form_container">
+	
+		<h1><a>Enter Student Details</a></h1>
+		<form id="form_4762" class="appnitro"  method="post" action="/submit">
+					<div class="form_description">
+			<p>Enter the Students Info</p>
+		</div>						
+			<ul >
+			
+					<li id="li_1" >
+		<label class="description" for="element_1">Name </label>
+		<div>
+			<input id="element_1" name="element_1" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_19" >
+		<label class="description" for="element_19">Department </label>
+		<div>
+		<select class="element select medium" id="element_19" name="element_19"> 
+			<option value="" selected="selected"></option>
+<option value="1" >Computer</option>
+<option value="2" >IT</option>
+<option value="3" >Mechanical</option>
+<option value="4" >Electronics</option>
+<option value="5" >EXTC</option>
+<option value="6" >Automobile</option>
+<option value="7" >Civil</option>
+
+		</select>
+		</div> 
+		</li>		<li id="li_20" >
+		<label class="description" for="element_20">Gender </label>
+		<div>
+		<select class="element select medium" id="element_20" name="element_20"> 
+			<option value="" selected="selected"></option>
+<option value="1" >Male</option>
+<option value="2" >Female</option>
+<option value="3" >Other</option>
+
+		</select>
+		</div> 
+		</li>		<li id="li_21" >
+		<label class="description" for="element_21">Year </label>
+		<div>
+		<select class="element select medium" id="element_21" name="element_21"> 
+			<option value="" selected="selected"></option>
+<option value="1" >1st</option>
+<option value="2" >2nd</option>
+<option value="3" >3rd</option>
+<option value="4" >4th</option>
+
+		</select>
+		</div> 
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">Sem 1 SGPA </label>
+		<div>
+			<input id="element_2" name="element_2" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_11" >
+		<label class="description" for="element_11">Sem 1 Kt </label>
+		<div>
+			<input id="element_11" name="element_11" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_3" >
+		<label class="description" for="element_3">Sem 2 SGPA </label>
+		<div>
+			<input id="element_3" name="element_3" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_12" >
+		<label class="description" for="element_12">Sem 2 kt </label>
+		<div>
+			<input id="element_12" name="element_12" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_4" >
+		<label class="description" for="element_4">Sem 3 SGPA </label>
+		<div>
+			<input id="element_4" name="element_4" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_13" >
+		<label class="description" for="element_13">Sem 3 kt </label>
+		<div>
+			<input id="element_13" name="element_13" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_5" >
+		<label class="description" for="element_5">Sem 4 SGPA </label>
+		<div>
+			<input id="element_5" name="element_5" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_18" >
+		<label class="description" for="element_18">Sem 4 kt </label>
+		<div>
+			<input id="element_18" name="element_18" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>
+				<!--<li id="li_6" >
+		<label class="description" for="element_6">Sem 5 SGPA </label>
+		<div>
+			<input id="element_6" name="element_6" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_17" >
+		<label class="description" for="element_17">Sem 5 kt </label>
+		<div>
+			<input id="element_17" name="element_17" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_7" >
+		<label class="description" for="element_7">Sem 6 SGPA </label>
+		<div>
+			<input id="element_7" name="element_7" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_16" >
+		<label class="description" for="element_16">Sem 6 kt </label>
+		<div>
+			<input id="element_16" name="element_16" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_8" >
+		<label class="description" for="element_8">Sem 7 SGPA </label>
+		<div>
+			<input id="element_8" name="element_8" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_15" >
+		<label class="description" for="element_15">Sem 7 kt </label>
+		<div>
+			<input id="element_15" name="element_15" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_9" >
+		<label class="description" for="element_9">Sem 8 SGPA </label>
+		<div>
+			<input id="element_9" name="element_9" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_14" >
+		<label class="description" for="element_14">Sem 8 kt </label>
+		<div>
+			<input id="element_14" name="element_14" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>	-->	<li id="li_22" >
+		<label class="description" for="element_22">How many hours per week do you spend  on writing assignments ? </label>
+		<div>
+		<select class="element select medium" id="element_22" name="element_22"> 
+			<option value="" selected="selected"></option>
+<option value="1" >Less than 1 hour</option>
+<option value="2" >1 - 5 hours</option>
+<option value="3" >5 - 10 hours</option>
+<option value="4" >More than 10 hours</option>
+
+		</select>
+		</div> 
+		</li>		<li id="li_23" >
+		<label class="description" for="element_23">How many hours per week do you spend  on travelling ? </label>
+		<div>
+		<select class="element select medium" id="element_23" name="element_23"> 
+			<option value="" selected="selected"></option>
+<option value="1" >Less than 1 hour</option>
+<option value="2" >1 - 2 hours</option>
+<option value="3" >2 - 3 hours</option>
+<option value="4" >More than 3 hours</option>
+
+		</select>
+		</div> 
+		</li>		<li id="li_24" >
+		<label class="description" for="element_24">How many hours per week do you spend  on studies ? </label>
+		<div>
+		<select class="element select medium" id="element_24" name="element_24"> 
+			<option value="" selected="selected"></option>
+<option value="1" >Less than 1 hour</option>
+<option value="2" >1 - 5 hours</option>
+<option value="3" >5 - 10 hours</option>
+<option value="4" >More than 10 hours</option>
+
+		</select>
+		</div> 
+		</li>		<li id="li_25" >
+		<label class="description" for="element_25">How much would you consider as your average attendance throughout all semester so far ? </label>
+		<span>
+			<input id="element_25_1" name="element_25_1" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_25_1">90%-100%</label>
+<input id="element_25_2" name="element_25_1" class="element checkbox" type="checkbox" value="2" />
+<label class="choice" for="element_25_2">80%-89%</label>
+<input id="element_25_3" name="element_25_1" class="element checkbox" type="checkbox" value="3" />
+<label class="choice" for="element_25_3">70%-79%</label>
+<input id="element_25_4" name="element_25_1" class="element checkbox" type="checkbox" value="4" />
+<label class="choice" for="element_25_4">Less than 70%</label>
+
+		</span> 
+		</li>		<li id="li_26" >
+		<label class="description" for="element_26">Internet availability at home ? </label>
+		<span>
+			<input id="element_26_1" name="element_26_1" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_26_1">Yes</label>
+<input id="element_26_2" name="element_26_1" class="element checkbox" type="checkbox" value="2" />
+<label class="choice" for="element_26_2">No</label>
+
+		</span> 
+		</li>		<li id="li_27" >
+		<label class="description" for="element_27">Speed </label>
+		<span>
+			<input id="element_27_1" name="element_27_1" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_27_1">High (>= 10 Mbps)</label>
+<input id="element_27_2" name="element_27_1" class="element checkbox" type="checkbox" value="2" />
+<label class="choice" for="element_27_2">Low (< 10 Mbps)</label>
+
+		</span> 
+		</li>		<li id="li_28" >
+		<label class="description" for="element_28">What is your preferred mode of transportation to reach college?  </label>
+		<span>
+			<input id="element_28_1" name="element_28_1" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_28_1">Bus</label>
+<input id="element_28_2" name="element_28_1" class="element checkbox" type="checkbox" value="2" />
+<label class="choice" for="element_28_2">Train</label>
+<input id="element_28_3" name="element_28_1" class="element checkbox" type="checkbox" value="3" />
+<label class="choice" for="element_28_3">Private Vehicle</label>
+
+		</span> 
+		</li>		<li id="li_29" >
+		<label class="description" for="element_29_1">Can you sit a lecture for 2 hrs straight?  </label>
+		<span>
+			<input id="element_29_1" name="element_29_1" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_29_1">Yes</label>
+<input id="element_29_2" name="element_29_1" class="element checkbox" type="checkbox" value="2" />
+<label class="choice" for="element_29_2">No</label>
+
+		</span> 
+		</li>		<li id="li_30" >
+		<label class="description" for="element_30">Do you do your submissions on time? * </label>
+		<span>
+			<input id="element_30_1" name="element_30_1" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_30_1">Yes</label>
+<input id="element_30_2" name="element_30_1" class="element checkbox" type="checkbox" value="2" />
+<label class="choice" for="element_30_2">No</label>
+
+		</span> 
+		</li>		<li id="li_31" >
+		<label class="description" for="element_31">If there are 5 hrs of lectures per day, would you attend all? * </label>
+		<span>
+			<input id="element_31_1" name="element_31_1" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_31_1">Yes</label>
+<input id="element_31_2" name="element_31_1" class="element checkbox" type="checkbox" value="2" />
+<label class="choice" for="element_31_2">No</label>
+
+		</span> 
+		</li>		<li id="li_32" >
+		<label class="description" for="element_32">If there are 5 hrs of practicals per day, would you attend all? * </label>
+		<span>
+			<input id="element_32_1" name="element_32_1" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_32_1">Yes</label>
+<input id="element_32_2" name="element_32_1" class="element checkbox" type="checkbox" value="2" />
+<label class="choice" for="element_32_2">No</label>
+
+		</span> 
+		</li>		<li id="li_33" >
+		<label class="description" for="element_33">Have you enrolled for coaching classes? * </label>
+		<span>
+			<input id="element_33_1" name="element_33_1" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_33_1">Yes</label>
+<input id="element_33_2" name="element_33_1" class="element checkbox" type="checkbox" value="2" />
+<label class="choice" for="element_33_2">No</label>
+
+		</span> 
+		</li>
+				<li id="li_34" >
+		<label class="description" for="element_34">How socially active are you? * </label>
+		<span>
+			<input id="element_34_1" name="element_34_1" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_34_1">Highly active</label>
+<input id="element_34_2" name="element_34_1" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_34_2">Somewhat active</label>
+<input id="element_34_3" name="element_34_1" class="element checkbox" type="checkbox" value="2" />
+<label class="choice" for="element_34_3">Not active</label>
+
+		</span> 
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="4762" />
+			    
+				<input id="saveForm"  class="button_text" type="submit"  name="submit" value="Submit" />
+		</li>
+			</ul>
+		</form>	
+
+	</div>
+	<img id="bottom" src="bottom.png" alt="">
+	</body>
+</html>
